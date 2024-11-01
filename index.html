@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postivus</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="p-8">
+    <header>
+        <!-- navbar part -->
+        <nav class="flex justify-between items-center">
+            <img src="./desktop/logo-big.png" alt="">
+            <svg class="w-6 h-6 md:hidden" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+            </svg>
+            <div class="hidden md:flex md:gap-7 md:items-center">
+                <ul><a>About us</a></ul>
+                <ul><a>Services</a></ul>
+                <ul><a>Use Cases</a></ul>
+                <ul><a>Pricing</a></ul>
+                <ul><a>Blog</a></ul>
+                <button class="border-2 p-3 rounded-2xl">Request a quote</button>
+            </div>
+        </nav>
+
+        <!-- header banner -->
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="./desktop/cover.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                    <h1 class="text-5xl font-sans font-bold">Navigating the <br> digital landscape <br> for success</h1>
+                    <p class="py-6">
+                        Our digital marketing agency helps businesses grow and succeed online through a range of
+                        services including SEO, PPC, social media marketing, and content creation.
+                    </p>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main></main>
+</body>
+
+</html>
