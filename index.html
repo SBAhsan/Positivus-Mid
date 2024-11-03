@@ -27,7 +27,7 @@
 <body class="p-8">
     <header>
         <!-- navbar part -->
-        <nav class="flex justify-between items-center">
+        <nav class="flex justify-around items-center">
             <img src="./desktop/logo-big.png" alt="">
             <svg class="w-6 h-6 md:hidden" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -45,18 +45,21 @@
         </nav>
 
         <!-- header banner -->
-        <div class="hero bg-base-200 min-h-screen">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src="./desktop/cover.png" class="max-w-sm rounded-lg shadow-2xl" />
+        <div class="hero bg-white md:flex md:justify-around md:px-20 py-10 md:items-center">
+            <div>
                 <div>
-                    <h1 class="text-5xl font-sans font-bold">Navigating the <br> digital landscape <br> for success</h1>
-                    <p class="py-6">
-                        Our digital marketing agency helps businesses grow and succeed online through a range of
-                        services including SEO, PPC, social media marketing, and content creation.
-                    </p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <h1 class="text-5xl font-sans font-bold pb-9 md:pb-0">Navigating the <br> digital landscape <br> for success
+                    </h1>
+                    <img src="./desktop/cover.png" class="max-w-sm pt-6 md:pt-0 md:hidden  rounded-lg" />
                 </div>
+                <p class="py-9">
+                    Our digital marketing agency helps businesses <br> grow and succeed online through a range of
+                    <br>
+                    services including SEO, PPC, social media marketing, <br> and content creation.
+                </p>
+                <button class="btn bg-black text-white rounded-2xl">Book a consultation</button>
             </div>
+            <img src="./desktop/cover.png" class="hidden md:block rounded-lg" />
         </div>
 
     </header>
