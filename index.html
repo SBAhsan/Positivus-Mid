@@ -23,8 +23,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-
-<body class="p-8">
+<!-- px-5 md:px-24 -->
+<body class="mx-auto pt-14"> 
     <header>
         <!-- navbar part -->
         <nav class="flex justify-around items-center">
@@ -45,10 +45,11 @@
         </nav>
 
         <!-- header banner -->
-        <div class="hero bg-white md:flex md:justify-around md:px-20 py-10 md:items-center">
+        <div class="hero bg-white md:flex md:justify-around px-5 md:px-20 py-10 md:items-center">
             <div>
                 <div>
-                    <h1 class="text-5xl font-sans font-bold pb-9 md:pb-0">Navigating the <br> digital landscape <br> for success
+                    <h1 class="text-5xl font-sans font-bold pb-9 md:pb-0">Navigating the <br> digital landscape <br> for
+                        success
                     </h1>
                     <img src="./desktop/cover.png" class="max-w-sm pt-6 md:pt-0 md:hidden  rounded-lg" />
                 </div>
@@ -57,12 +58,20 @@
                     <br>
                     services including SEO, PPC, social media marketing, <br> and content creation.
                 </p>
-                <button class="btn bg-black text-white rounded-2xl">Book a consultation</button>
+                <button class="btn bg-black text-white rounded-2xl w-full md:w-1/2">Book a consultation</button>
             </div>
             <img src="./desktop/cover.png" class="hidden md:block rounded-lg" />
         </div>
 
-    </header>
+        <!-- platforms' logos -->
+        <div class="grid grid-cols-3 md:grid-cols-6 ml-32  gap-0">
+            <img src="./desktop/amazon.png" alt="">
+            <img src="./desktop/dribble.png" alt="">
+            <img src="./desktop/hubspot.png" alt="">
+            <img src="./desktop/notion.png" alt="">
+            <img src="./desktop/netflix.png" alt="">
+            <img src="./desktop/zoom.png" alt="">
+        </div>
     <main></main>
 </body>
 
